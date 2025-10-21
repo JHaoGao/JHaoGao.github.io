@@ -40,11 +40,13 @@ profiles:
     label: WeChat - Clark_JhG
 
 education:
-  - area: PhD in School of Construction Management
+  - area: PhD in Construction Management
     institution: University of Florida
     date_start: 2022-08-01
     date_end: 2026-08-31
     summary: |
+      Department: College of Design, Construction, and Planning
+
       Research Focus: Computational Mechanics, AI for Materials
 
       Core Courses:
@@ -55,7 +57,7 @@ education:
       - AI-driven design and optimization for cementitious materials
 
       Teaching Assistant:
-      - Building Mechanics
+      - Construction Mechanics
       - AI in Built Environment
   - area: MS in Structural Engineering
     institution: Northwestern University
@@ -68,12 +70,12 @@ education:
       - Continuum Mechanics, Theory of Elasticity, High Performance Computing, Structural Dynamics, Plate and Shell Structures, Structural Stability, Structural Optimization
 
       Capstone Project: Redesign of Noyes Station light rail station in Chicago
-  - area: BS in Bridge Engineering
+  - area: BE in Bridge Engineering
     institution: Hunan University
     date_start: 2017-09-01
     date_end: 2021-06-30
     summary: |
-      School: College of Civil Engineering
+      Department: College of Civil Engineering
 
       Core Courses:
       - Theoretical/Material/Soil/Fluid/Elastic/Structural Mechanics, Steel Structure Design, Concrete Structure Design, Bridge Engineering and Design

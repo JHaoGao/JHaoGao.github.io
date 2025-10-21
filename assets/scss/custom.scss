@@ -1,4 +1,4 @@
-/* Custom styles to make the page wider - 1.5x increase */
+/* Custom styles to make the page wider - double width for specific sections */
 
 /* Increase max-width for the main content container */
 .article-container {
@@ -10,13 +10,13 @@
   max-width: 1800px !important;
 }
 
-/* Increase max-width for resume blocks */
+/* Double width for Experience, Education, Skills, and Publication sections */
 .resume-biography,
 .resume-experience,
 .resume-skills,
 .resume-awards,
 .resume-languages {
-  max-width: 1800px !important;
+  max-width: 2400px !important;
 }
 
 /* General container width increase */
@@ -24,11 +24,18 @@
   max-width: 1800px !important;
 }
 
-/* Adjust block sections */
+/* Adjust block sections - double width for specific sections */
 section.home-section {
   max-width: 1800px !important;
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+/* Double width for experience, skills, and awards blocks */
+.block.experience,
+.block.skills,
+.block.awards {
+  max-width: 2400px !important;
 }
 
 /* Increase width for all content blocks */
@@ -40,4 +47,16 @@ section.home-section {
 /* Widen the main wrapper */
 .wrapper {
   max-width: 1800px !important;
+}
+
+/* Make skills section items display in a single row */
+.resume-skills .skills-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 2rem !important;
+}
+
+/* Ensure skills items are properly sized */
+.resume-skills .skills-item {
+  width: 100% !important;
 }
