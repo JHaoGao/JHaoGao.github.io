@@ -1,175 +1,216 @@
 ---
 # Display name
-title: 吳健雄
+title: Jianhao Gao
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Jianhao Gao
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
-# Pronouns (optional)
-pronouns: she/her
+first_name: Jianhao
+last_name: Gao
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🏗️
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: PhD Candidate in Computational Mechanics and AI for Materials
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: University of Florida
+    url: https://www.ufl.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:jianhaogao2022@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/BuildLore
   - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://github.com/JHaoGao
+  - icon: brands/wechat
+    url: 'wechat://Clark_JhG'
+    label: WeChat - Clark_JhG
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD in Design, Construction and Planning
+    institution: University of Florida
+    date_start: 2022-08-01
+    date_end: 2026-08-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      Research Focus: Computational Mechanics, AI for Materials
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+      Core Courses:
+      - Finite Element Method
+      - Computational Elastoplasticity
+      - Partial Differential Equations
+      - Computational Fluid Dynamics
+      - Differential Geometry
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Research Areas:
+      - Phase-field fracture theory
+      - AI-driven design and optimization for cementitious materials
+
+      Teaching Assistant:
+      - Building Mechanics
+      - AI in Built Environment (grading, lecturing, tutoring, exam organization)
+  - area: MS in Structural Engineering
+    institution: Northwestern University
+    date_start: 2021-08-01
+    date_end: 2022-06-30
+    summary: |
+      Department: Civil and Environmental Engineering
+
+      Core Courses:
+      - Continuum Mechanics
+      - Theory of Elasticity
+      - High Performance Computing
+      - Structural Dynamics
+      - Plate and Shell Structures
+      - Structural Stability
+      - Structural Optimization
+
+      Capstone Project: Redesign of Noyes Station light rail station in Chicago
+  - area: BS in Bridge Engineering
+    institution: Hunan University
+    date_start: 2017-09-01
+    date_end: 2021-06-30
+    summary: |
+      School: College of Civil Engineering
+
+      Core Courses:
+      - Theoretical/Material/Soil/Fluid/Elastic/Structural Mechanics
+      - Steel Structure Design
+      - Concrete Structure Design
+      - Bridge Engineering and Design
+
+      Capstone Project: Highway river-crossing bridge design and finite element analysis of concrete-filled steel tubular arch bridge
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Research Assistant
+    company_name: University of Florida
+    company_url: 'https://www.ufl.edu/'
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2022-08-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Key Research Projects:
+      - **Sustainable Concrete Mix Design Optimization (Generative AI + Multi-objective Optimization)**: Published in *Journal of Building Engineering* (NSF-funded). Developed VAE generative model integrated with NSGA-II for multi-objective optimization of compressive strength, CO₂ emissions, and cost. DOI: 10.1016/j.jobe.2024.110618
+      - **Data-Driven Modeling of 3D Printable Concrete Rheology**: Published in *Construction and Building Materials* (NSF-funded). Compiled 10-year literature database for 3D-printed concrete rheology, developed ML prediction framework with SHAP interpreter. DOI: 10.1016/j.conbuildmat.2024.137912
+      - **Linear Helical Printing**: Published in *Engineering Structures* (NSF-funded). Pioneered linear helical 3D printing technique with experimental validation and Abaqus FEM simulation, achieving up to 97.3% improvement in flexural strength. DOI: 10.1016/j.engstruct.2025.120219
+      - **Phase-Field Fracture Modeling with Anisotropic Degradation**: Developed multi-degradation variable phase-field model for direction-dependent damage and fracture in anisotropic materials. Presented at 2025 ASCE EMI Conference.
+      - **Video-Based Seismic Fault Slip Time Series Extraction**: Preprint arXiv:2505.20494. Combined machine vision, geometric projection, and field surveys to extract surface displacement time series from surveillance video.
+      - **Fine-Tuned LLM for Concrete Property Prediction**: Constructed cementitious materials dataset using RAG+LoRA fine-tuning strategy for mix-to-strength prediction with enhanced interpretability.
+      - **Computational Tool Development**: Developed Vibe-FEM (web-based FEM solver using Rust+WebAssembly), Nano-FEM (custom FEM framework), PhaseFracturer (phase-field fracture simulation), and FoamSees (soil-water interaction framework based on OpenSees).
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Programming Languages
     items:
       - name: Python
-        description: ''
-        percent: 80
+        description: 'Advanced proficiency'
+        percent: 95
         icon: devicon/python
-      - name: RStudio
-        description: ''
-        percent: 100
-        icon: devicon/rstudio
-      - name: PyTorch
-        description: ''
-        percent: 40
-        icon: devicon/pytorch
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
+      - name: C++
+        description: 'Advanced proficiency'
+        percent: 90
+        icon: devicon/cplusplus
+      - name: MATLAB
+        description: 'Advanced proficiency'
+        percent: 85
+        icon: devicon/matlab
+      - name: Fortran
+        description: 'Proficient'
+        percent: 75
+        icon: code-bracket
+  - name: AI/ML & Simulation Tools
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
+      - name: PyTorch
+        description: 'Deep learning framework'
+        percent: 90
+        icon: devicon/pytorch
+      - name: TensorFlow
+        description: 'Machine learning'
+        percent: 85
+        icon: devicon/tensorflow
+      - name: Abaqus
+        description: 'FEM simulation (UMAT/VUMAT)'
+        percent: 95
+        icon: cube
+      - name: FEniCSx
+        description: 'Phase-field modeling'
+        percent: 90
+        icon: cube
+      - name: OpenSees
+        description: 'Structural analysis'
         percent: 80
-        icon: camera
+        icon: cube
+  - name: Other Tools
+    items:
+      - name: Rust
+        description: 'Web development'
+        percent: 70
+        icon: devicon/rust
+      - name: LS-DYNA
+        description: 'Simulation'
+        percent: 75
+        icon: cube
+      - name: Midas Civil
+        description: 'Bridge design'
+        percent: 80
+        icon: cube
 
 languages:
-  - name: English
-    percent: 100
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 100
+  - name: English
+    percent: 95
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: brands/coursera
+  - title: Mix design of sustainable concrete using generative models
+    url: https://doi.org/10.1016/j.jobe.2024.110618
+    date: '2024-09-01'
+    awarder: Journal of Building Engineering
+    icon: academic-cap
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: brands/edx
+      Developed VAE generative model integrated with NSGA-II for multi-objective optimization of compressive strength, CO₂ emissions, and cost in sustainable concrete mix design. NSF-funded research.
+
+      DOI: 10.1016/j.jobe.2024.110618
+  - title: Data-driven rheological model for 3D printable concrete
+    url: https://doi.org/10.1016/j.conbuildmat.2024.137912
+    date: '2024-10-01'
+    awarder: Construction and Building Materials
+    icon: academic-cap
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: brands/datacamp
+      Compiled comprehensive database from 10 years of literature on 3D-printed concrete rheology and developed machine learning prediction framework with SHAP interpreter for interpretability. NSF-funded research.
+
+      DOI: 10.1016/j.conbuildmat.2024.137912
+  - title: 'Linear helical printing: A novel approach to 3D printing concrete structures with enhanced integrity'
+    url: https://doi.org/10.1016/j.engstruct.2025.120219
+    date: '2025-01-01'
+    awarder: Engineering Structures
+    icon: academic-cap
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Pioneered linear helical 3D printing technique for concrete structures, validated through experiments and Abaqus FEM simulation, achieving up to 97.3% improvement in flexural strength compared to traditional methods. NSF-funded research.
+
+      DOI: 10.1016/j.engstruct.2025.120219
+  - title: Video-based Direct Time Series Measurement of Along-Strike Slip on the Coseismic Surface Rupture During the 2025 Mw7.7 Myanmar Earthquake
+    url: https://arxiv.org/abs/2505.20494
+    date: '2025-05-01'
+    awarder: arXiv preprint
+    icon: academic-cap
+    summary: |
+      Combined machine vision, geometric projection, and field surveys to extract surface displacement time series from surveillance video of the 2025 Myanmar earthquake coseismic fault rupture.
+
+      arXiv:2505.20494
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+I am a PhD candidate in the School of Design, Construction and Planning at the University of Florida, specializing in computational mechanics and AI for materials. My research focuses on phase-field fracture theory and AI-driven design and optimization methods for cementitious materials. I develop computational tools and frameworks to advance sustainable construction materials and structural engineering.
