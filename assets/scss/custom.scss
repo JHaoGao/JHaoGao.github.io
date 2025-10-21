@@ -1,70 +1,57 @@
-/* Custom styles to make the page wider - double width for specific sections */
+/*
+  Custom layout tweaks
+  - Fix overly wide layout by using sensible, responsive container widths
+  - Provide optional per-section width modifiers
+  - Improve skills grid responsiveness
+*/
 
-/* Increase max-width for the main content container */
-.article-container {
-  min-width: 2400px !important;
-  max-width: 3000px !important;
+:root {
+  /* Adjust this to your preferred site content width */
+  --site-max-width: 1100px;
+  --site-gutter: 1.25rem; /* left/right padding */
 }
 
-/* Increase max-width for the page body */
-.page-body {
-      min-width: 2400px !important;
-  max-width: 3000px !important;
-}
-
-/* Double width for Experience, Education, Skills, and Publication sections */
-.resume-biography,
-.resume-experience,
-.resume-skills,
-.resume-awards,
-.resume-languages {
-    min-width: 2400px !important;
-  max-width: 3000px !important;
-}
-
-/* General container width increase */
+/* Primary content containers */
+.article-container,
+.page-container,
 .container {
-    min-width: 2400px !important;
-  max-width: 3000px !important;
+  max-width: var(--site-max-width);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--site-gutter);
+  padding-right: var(--site-gutter);
 }
 
-/* Adjust block sections - double width for specific sections */
-section.home-section {
-    min-width: 2400px !important;
-  max-width: 3000px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-/* Double width for experience, skills, and awards blocks */
-.block.experience,
-.block.skills,
-.block.awards {
-  min-width: 2400px !important;
-  max-width: 3000px !important;
-}
-
-/* Increase width for all content blocks */
+/* Ensure generic blocks respect the container width without forcing a large min-width */
 .block,
-.block-markdown {
-  min-width: 2400px !important;
-  max-width: 3000px !important;
-}
-
-/* Widen the main wrapper */
+.block-markdown,
+.page-body,
 .wrapper {
-  min-width: 2400px !important;
-  max-width: 3000px !important;
+  width: 100%;
+  max-width: none; /* blocks themselves can be full width; inner containers control max width */
 }
 
-/* Make skills section items display in a single row */
+/* Optional width modifiers (use via design.css_class in page sections) */
+.section--wide .container,
+.wide .container {
+  max-width: 1280px; /* slightly wider variant */
+}
+
+.section--full .container,
+.wide-full .container {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Skills grid: responsive columns */
 .resume-skills .skills-grid {
-  display: grid !important;
-  grid-template-columns: repeat(3, 1fr) !important;
-  gap: 2rem !important;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
 }
 
-/* Ensure skills items are properly sized */
 .resume-skills .skills-item {
-  width: 100% !important;
+  width: 100%;
 }
