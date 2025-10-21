@@ -1,13 +1,13 @@
-/* Custom styles to make the page wider */
+/* Custom styles to make the page wider - 1.5x increase */
 
 /* Increase max-width for the main content container */
 .article-container {
-  max-width: 1200px !important;
+  max-width: 1800px !important;
 }
 
 /* Increase max-width for the page body */
 .page-body {
-  max-width: 1200px !important;
+  max-width: 1800px !important;
 }
 
 /* Increase max-width for resume blocks */
@@ -16,17 +16,28 @@
 .resume-skills,
 .resume-awards,
 .resume-languages {
-  max-width: 1200px !important;
+  max-width: 1800px !important;
 }
 
 /* General container width increase */
 .container {
-  max-width: 1200px !important;
+  max-width: 1800px !important;
 }
 
 /* Adjust block sections */
 section.home-section {
-  max-width: 1200px !important;
+  max-width: 1800px !important;
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+/* Increase width for all content blocks */
+.block,
+.block-markdown {
+  max-width: 1800px !important;
+}
+
+/* Widen the main wrapper */
+.wrapper {
+  max-width: 1800px !important;
 }
