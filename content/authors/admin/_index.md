@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: PhD Candidate in Computational Mechanics and AI for Materials
+role: PhD student with background in Civil Engineering and Construction Managmenet
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -40,7 +40,7 @@ profiles:
     label: WeChat - Clark_JhG
 
 education:
-  - area: PhD in Design, Construction and Planning
+  - area: PhD in School of Construction Management
     institution: University of Florida
     date_start: 2022-08-01
     date_end: 2026-08-31
@@ -48,11 +48,7 @@ education:
       Research Focus: Computational Mechanics, AI for Materials
 
       Core Courses:
-      - Finite Element Method
-      - Computational Elastoplasticity
-      - Partial Differential Equations
-      - Computational Fluid Dynamics
-      - Differential Geometry
+      Finite Element Method, Computational Elastoplasticity, Partial Differential Equations, Computational Fluid Dynamics, Differential Geometry
 
       Research Areas:
       - Phase-field fracture theory
@@ -60,7 +56,7 @@ education:
 
       Teaching Assistant:
       - Building Mechanics
-      - AI in Built Environment (grading, lecturing, tutoring, exam organization)
+      - AI in Built Environment
   - area: MS in Structural Engineering
     institution: Northwestern University
     date_start: 2021-08-01
@@ -69,13 +65,7 @@ education:
       Department: Civil and Environmental Engineering
 
       Core Courses:
-      - Continuum Mechanics
-      - Theory of Elasticity
-      - High Performance Computing
-      - Structural Dynamics
-      - Plate and Shell Structures
-      - Structural Stability
-      - Structural Optimization
+      - Continuum Mechanics, Theory of Elasticity, High Performance Computing, Structural Dynamics, Plate and Shell Structures, Structural Stability, Structural Optimization
 
       Capstone Project: Redesign of Noyes Station light rail station in Chicago
   - area: BS in Bridge Engineering
@@ -86,10 +76,7 @@ education:
       School: College of Civil Engineering
 
       Core Courses:
-      - Theoretical/Material/Soil/Fluid/Elastic/Structural Mechanics
-      - Steel Structure Design
-      - Concrete Structure Design
-      - Bridge Engineering and Design
+      - Theoretical/Material/Soil/Fluid/Elastic/Structural Mechanics, Steel Structure Design, Concrete Structure Design, Bridge Engineering and Design
 
       Capstone Project: Highway river-crossing bridge design and finite element analysis of concrete-filled steel tubular arch bridge
 work:
@@ -118,14 +105,14 @@ skills:
         description: 'Advanced proficiency'
         percent: 95
         icon: devicon/python
+      - name: MATLAB
+        description: 'Advanced proficiency'
+        percent: 95
+        icon: devicon/matlab
       - name: C++
         description: 'Advanced proficiency'
         percent: 90
         icon: devicon/cplusplus
-      - name: MATLAB
-        description: 'Advanced proficiency'
-        percent: 85
-        icon: devicon/matlab
       - name: Fortran
         description: 'Proficient'
         percent: 75
@@ -142,19 +129,19 @@ skills:
         icon: cube
       - name: FEniCSx
         description: 'Phase-field modeling'
-        percent: 90
+        percent: 95
         icon: cube
       - name: OpenSees
         description: 'Structural analysis'
-        percent: 80
+        percent: 90
         icon: cube
       - name: LS-DYNA
         description: 'Simulation'
-        percent: 75
+        percent: 90
         icon: cube
       - name: Midas Civil
         description: 'Bridge design'
-        percent: 80
+        percent: 90
         icon: cube
   - name: AI/ML Tools
     items:
@@ -216,4 +203,4 @@ awards:
       arXiv:2505.20494
 ---
 
-I am a PhD candidate in the School of Design, Construction and Planning at the University of Florida, specializing in computational mechanics and AI for materials. My research focuses on phase-field fracture theory and AI-driven design and optimization methods for cementitious materials. I develop computational tools and frameworks to advance sustainable construction materials and structural engineering.
+I am a PhD student in the School of Design, Construction and Planning at the University of Florida, specializing in computational mechanics and AI for materials. My research focuses on structural failure analysis and AI-driven design and optimization methods for cementitious materials. I develop computational tools and frameworks to advance sustainable construction materials and structural engineering.
