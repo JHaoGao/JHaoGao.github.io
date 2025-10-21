@@ -1,0 +1,32 @@
+/* Custom styles to make the page wider */
+
+/* Increase max-width for the main content container */
+.article-container {
+  max-width: 1200px !important;
+}
+
+/* Increase max-width for the page body */
+.page-body {
+  max-width: 1200px !important;
+}
+
+/* Increase max-width for resume blocks */
+.resume-biography,
+.resume-experience,
+.resume-skills,
+.resume-awards,
+.resume-languages {
+  max-width: 1200px !important;
+}
+
+/* General container width increase */
+.container {
+  max-width: 1200px !important;
+}
+
+/* Adjust block sections */
+section.home-section {
+  max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}

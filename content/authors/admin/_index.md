@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jianhao Gao
+title: 高健皓
 
 # Name pronunciation (optional)
 name_pronunciation: Jianhao Gao
@@ -27,6 +27,9 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
+  - icon: sparkles
+    url: 'https://vibe-fem.com/'
+    label: Want to play with FEM the easy way? Try Vibe-FEM!
   - icon: at-symbol
     url: 'mailto:jianhaogao2022@gmail.com'
     label: E-mail Me
@@ -127,16 +130,12 @@ skills:
         description: 'Proficient'
         percent: 75
         icon: code-bracket
-  - name: AI/ML & Simulation Tools
+      - name: Rust
+        description: 'Web development'
+        percent: 70
+        icon: devicon/rust
+  - name: Computational Tools
     items:
-      - name: PyTorch
-        description: 'Deep learning framework'
-        percent: 90
-        icon: devicon/pytorch
-      - name: TensorFlow
-        description: 'Machine learning'
-        percent: 85
-        icon: devicon/tensorflow
       - name: Abaqus
         description: 'FEM simulation (UMAT/VUMAT)'
         percent: 95
@@ -149,12 +148,6 @@ skills:
         description: 'Structural analysis'
         percent: 80
         icon: cube
-  - name: Other Tools
-    items:
-      - name: Rust
-        description: 'Web development'
-        percent: 70
-        icon: devicon/rust
       - name: LS-DYNA
         description: 'Simulation'
         percent: 75
@@ -163,6 +156,16 @@ skills:
         description: 'Bridge design'
         percent: 80
         icon: cube
+  - name: AI/ML Tools
+    items:
+      - name: PyTorch
+        description: 'Deep learning framework'
+        percent: 90
+        icon: devicon/pytorch
+      - name: TensorFlow
+        description: 'Machine learning'
+        percent: 85
+        icon: devicon/tensorflow
 
 languages:
   - name: Chinese

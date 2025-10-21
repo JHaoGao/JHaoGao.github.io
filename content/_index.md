@@ -15,9 +15,9 @@ sections:
     content:
       username: admin
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download Résumé
-        url: uploads/resume.pdf
+      # button:
+      #   text: Download Résumé
+      #   url: uploads/resume.pdf
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
@@ -25,10 +25,10 @@ sections:
       biography:
         # Customize the style of your biography text
         style: 'text-align: justify; font-size: 0.8em;'
-      # Avatar customization
-      avatar:
-        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: rounded # Options: circle (default), square, rounded
+      # Avatar customization - disabled
+      # avatar:
+      #   size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+      #   shape: rounded # Options: circle (default), square, rounded
   - block: experience
     content:
       username: admin
@@ -43,7 +43,7 @@ sections:
       username: admin
   - block: awards
     content:
-      title: Awards
+      title: Publications
       username: admin
   - block: languages
     content:
