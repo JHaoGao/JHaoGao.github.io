@@ -2,12 +2,14 @@
 
 /* Increase max-width for the main content container */
 .article-container {
-  max-width: 1800px !important;
+  min-width: 1600px !important;
+  max-width: 2400px !important;
 }
 
 /* Increase max-width for the page body */
 .page-body {
-  max-width: 1800px !important;
+      min-width: 1600px !important;
+  max-width: 2400px !important;
 }
 
 /* Double width for Experience, Education, Skills, and Publication sections */
@@ -16,17 +18,20 @@
 .resume-skills,
 .resume-awards,
 .resume-languages {
+    min-width: 1600px !important;
   max-width: 2400px !important;
 }
 
 /* General container width increase */
 .container {
-  max-width: 1800px !important;
+    min-width: 1600px !important;
+  max-width: 2400px !important;
 }
 
 /* Adjust block sections - double width for specific sections */
 section.home-section {
-  max-width: 1800px !important;
+    min-width: 1600px !important;
+  max-width: 2400px !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -35,19 +40,21 @@ section.home-section {
 .block.experience,
 .block.skills,
 .block.awards {
-  min-width: 1200px !important;
+  min-width: 1600px !important;
   max-width: 2400px !important;
 }
 
 /* Increase width for all content blocks */
 .block,
 .block-markdown {
-  max-width: 1800px !important;
+  min-width: 1600px !important;
+  max-width: 2400px !important;
 }
 
 /* Widen the main wrapper */
 .wrapper {
-  max-width: 1800px !important;
+  min-width: 1600px !important;
+  max-width: 2400px !important;
 }
 
 /* Make skills section items display in a single row */
