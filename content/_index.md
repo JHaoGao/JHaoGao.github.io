@@ -1,35 +1,52 @@
 ---
-title: "Jianhao Gao"
-role: "Ph.D. Research Assistant, University of Florida"
-email: "jianhaogao2022@gmail.com"
-linkedin: "https://linkedin.com/in/jianhaogao"
-github: "https://github.com/JHaoGao"
-avatar: "photo.jpg"
+title: 'Home'
+date: 2023-10-24
+type: landing
+
+design:
+  # Default section spacing
+  spacing: '4rem'
+
+# Note: `username` refers to the user's folder name in `content/authors/`
+
+# Page sections
+sections:
+  - block: biography
+    content:
+      username: admin
+      # Show a call-to-action button under your biography? (optional)
+      button:
+        text: Download Résumé
+        url: uploads/resume.pdf
+    design:
+      banner:
+        # Upload your cover image to the `assets/media/` folder and reference it here
+        filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
+      biography:
+        # Customize the style of your biography text
+        style: 'text-align: justify; font-size: 0.8em;'
+      # Avatar customization
+      avatar:
+        size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        shape: rounded # Options: circle (default), square, rounded
+  - block: experience
+    content:
+      username: admin
+    design:
+      # Hugo date format
+      date_format: 'January 2006'
+      # Education or Experience section first?
+      is_education_first: false
+  - block: skills
+    content:
+      title: Skills & Hobbies
+      username: admin
+  - block: awards
+    content:
+      title: Awards
+      username: admin
+  - block: languages
+    content:
+      title: Languages
+      username: admin
 ---
-
-## Education
-- **Ph.D. in Computational Mechanics**, University of Florida *(2022–2026)*  
-  Research: Phase-field fracture, AI-assisted material design.
-
-- **M.S. in Structural Engineering**, Northwestern University *(2021–2022)*  
-  Thesis: Redesign of Chicago Noyes Station.
-
-- **B.Eng. in Bridge Engineering**, Hunan University *(2017–2021)*
-
-## Research Experience
-- **Research Assistant**, University of Florida *(2022–Present)*  
-  - Sustainable concrete design using generative AI → *J. Building Engineering* (2024)  
-  - Data-driven rheology for 3D printing → *Const. & Build. Mater.* (2024)  
-  - Linear Helical Printing → *Engineering Structures* (2025)
-
-## Software Projects
-- **Vibe-FEM** – Web-based finite element solver ([vibe-fem.com](https://vibe-fem.com))  
-- **Nano-FEM** – From-scratch FE framework ([GitHub](https://github.com/JHaoGao/Nano_FEM))
-
-## Publications
-- Gao, J. *et al.*, “Mix design of sustainable concrete using generative models,” *J. Building Engineering*, 2024.  
-- Gao, J. *et al.*, “Data-driven rheological model for 3D printable concrete,” *Const. & Build. Mater.*, 2024.  
-
-## Service
-- Volunteer, Hunan University Rubik’s Cube Society (Training Dept. Head)  
-- Volunteer, Xiangya Hospital Children’s Program
